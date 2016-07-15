@@ -430,6 +430,7 @@ http://academy.telerik.com
     - facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - forums.academy.telerik.com
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic37.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
