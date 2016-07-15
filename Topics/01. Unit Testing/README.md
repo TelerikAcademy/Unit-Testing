@@ -9,9 +9,9 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:7.40%; left:27.13%; width:73.17%; z-index:-1" /> -->
 
 <div class="signature">
-	<p class="signature-course">High-Quality Code - Unit Testing</p>
-	<p class="signature-initiative">Telerik Software Academy</p>
-	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
+   <p class="signature-course">High-Quality Code - Unit Testing</p>
+   <p class="signature-initiative">Telerik Software Academy</p>
+   <a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 <!-- section start -->
@@ -36,9 +36,11 @@
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Unit Test - Definition
-- A **unit test** is a piece of code written by a developer that exercises a very small, specific area of functionality of the code being tested.
-- **“Program testing can be used to show the presence of bugs, but never to show their absence!”**
-- Edsger Dijkstra, [1972]
+A **unit test** is a piece of code written by a developer that exercises a very small, specific area of functionality of the code being tested.
+
+**"Program testing can be used to show the presence of bugs, but never to show their absence!"**
+
+Edsger Dijkstra, [1972]
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Manual Testing
@@ -59,7 +61,7 @@
 int Sum(int[] array)
 {
   sum = 0;
-  for (int i=0; i<array.Length; i++)
+  for (int i = 0; i < array.Length; i++)
     sum += array[i];
   return sum;
 }
@@ -129,25 +131,25 @@ void TestSum()
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section" } -->
-# Visual StudioTeam Test - Features
+# Visual Studio Team Test - Features
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:33.50%; left:9.36%; width:86.83%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:49.37%; left:66.58%; width:36.89%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:59.31%; left:29.94%; width:26.54%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Visual StudioTeam Test - Features
+# Visual Studio Team Test - Features
 - **Team Test (VSTT)** is very well integrated with Visual Studio
   - Create test projects and unit tests
   - Execute unit tests
   - View execution results
   - View code coverage
-- Located in the assembly **Microsoft.VisualStudio.QualityTools.** **UnitTestFramework.dll**
+- Located in the assembly **Microsoft.VisualStudio.** **QualityTools.UnitTestFramework.dll**
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:39.67%; left:65.40%; width:36.24%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
-# Visual StudioTeam Test -  Attributes
+# Visual Studio Team Test -  Attributes
 - Test code is annotated using custom attributes:
   - **[TestClass]** - denotes a class holding unit tests
   - **[TestMethod]** - denotes a unit test method
@@ -159,7 +161,7 @@ void TestSum()
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Assertions
-- **Predicate** is a true / false statement
+- **Predicate** is a `true` / `false` statement
 - **Assertion** is a predicate placed in a program code (check for some condition)
   - Developers expect the predicate is always true at that place
   - If an assertion fails, the method call does not return and an error is reported
@@ -175,16 +177,18 @@ Assert.AreEqual(
 - Assertions check a condition
   - Throw exception if the condition is not satisfied
 - Comparing values for equality
-- Comparing objects (by reference)
-- Checking for **null** value
 
 ```cs
 AreEqual(expected_value, actual_value [,message])
 ```
 
+- Comparing objects (by reference)
+
 ```cs
 AreSame(expected_object, actual_object [,message])
 ```
+
+- Checking for **null** value
 
 ```cs
 IsNull(object [,message])
@@ -195,7 +199,6 @@ IsNotNull(object [,message])
 ```
 
 - Checking conditions
-- Forced test fail
 
 ```cs
 IsTrue(condition)
@@ -204,6 +207,7 @@ IsTrue(condition)
 ```cs
 IsFalse(condition)
 ```
+- Forced test fail
 
 ```cs
 Fail(message)
@@ -235,7 +239,7 @@ public void TestDeposit()
   - Shows what percent of the code we’ve covered
   - High code coverage means less untested code
   - We may have pointless unit tests that are calculated in the code coverage
-- 70-80% coverage is excellent
+- **70-80%** coverage is excellent
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:43.53%; left:9.36%; width:83.86%; z-index:-1" /> -->
 
@@ -299,25 +303,40 @@ public class AccountTest
 <!-- attr: { hasScriptWrapper:true, class:"slide-section" } -->
 # Mocha and Chai
 - Mocha is a feature-rich framework for testing JavaScript
-  - Run in both the browser and on Node.js  Can test async code
-  - Compatible with Karma & other test runners  Pluggable  Different plugins to add even more features
+  - Run in both the browser and on Node.js, Can test async code
+  - Compatible with Karma & other test runners, Pluggable, Different plugins to add even more features
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Installing Mocha and Chai
 - To start working with Mocha follow the steps:
-  -  Get Mocha
+  1. Get Mocha
     - Download mocha from GitHub
-    - With bower
-    - With NuGet
-  - Setup a reporter
+    - With bower - `$ bower install mocha`
+    - With NuGet - `PM> Install-Package MochaChaiBdd`
+  1. Setup a reporter
     - Console reporter
     - HTML reporter
     - Karma reporter
 
 - To start working with Mocha follow the steps:
-  - Select a plugin for the test syntax
-    - Mostly used is chai.js:
-  - Start writing tests:
+  3. Select a plugin for the test syntax
+    - Mostly used is chai.js: `$ bower install chai`
+  1. Start writing tests:
+
+```js
+describe('#sum', function() {
+  it('when empty array, expect to return 0', function() {
+    var actual = sum([]);
+	expect(actual).to.equal(0);
+  });
+  it('when with single number, expect the number', function() {
+	var number = 6,
+	    actual = sum([number]),
+		expected = number;
+	expect(actual).to.equal(expected);
+  });
+});
+```
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section" } -->
@@ -347,22 +366,26 @@ public class AccountTest
 
 <!-- attr: { hasScriptWrapper:true } -->
 # NUnit - _Example_: Test
-- using NUnit.Framework;
-- [TestFixture]
-- public class AccountTest
-- {
--   [Test]
--   public void TransferFunds()
--   {
--     Account source = new Account();
--     source.Deposit(200.00F);
--     Account dest = new Account();
--     dest.Deposit(150.00F);
--     source.TransferFunds(dest, 100.00F);
--     Assert.AreEqual(250.00F, dest.Balance);
--     Assert.AreEqual(100.00F, source.Balance);
--   }
-- }
+
+```cs
+using NUnit.Framework;
+
+[TestFixture]
+public class AccountTest
+{
+  [Test]
+  public void TransferFunds()
+  {
+    Account source = new Account();
+    source.Deposit(200.00F);
+    Account dest = new Account();
+    dest.Deposit(150.00F);
+    source.TransferFunds(dest, 100.00F);
+    Assert.AreEqual(250.00F, dest.Balance);
+    Assert.AreEqual(100.00F, source.Balance);
+  }
+}
+```
 
 <!-- attr: { hasScriptWrapper:true } -->
 # NUnit - Screenshot
@@ -383,7 +406,7 @@ public class AccountTest
   - Gallio can run tests from MbUnit, MSTest, NUnit, xUnit.Net, csUnit, and RSpec
   - Provides a common object model, runtime services and tools (such as test runners)
     - May be leveraged by any number of test frameworks
-  - www.gallio.org
+  - [https://github.com/Gallio](https://github.com/Gallio) <!-- www.gallio.org -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:64.10%; left:75.21%; width:28.81%; z-index:-1" /> -->
 
@@ -406,8 +429,8 @@ public class AccountTest
 <!-- attr: { hasScriptWrapper:true } -->
 # Naming Standards for Unit Tests
 - The **test name** should express a specific requirement that is tested
-  - Usually prefixed with **[Test]**
-  - E.g. **TestAccountDepositNegativeSum()**
+  - Usually prefixed with `[Test]`
+  - E.g. `TestAccountDepositNegativeSum()`
 - The test name should include
   - Expected input or state
   - Expected result output or state
@@ -415,26 +438,36 @@ public class AccountTest
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Naming Standards for Unit Tests - _Example_
-- Given the method:
-- 	with requirement to ignore numbers greater than 100 in the summing process
-- The test name could be:
+- Given the method: `public int Sum(params int[] values)`
+with requirement to ignore numbers greater than 100 in the summing process
+- The test name could be: `TestSum_NumberIgnoredIfGreaterThan100`
 
 <!-- attr: { hasScriptWrapper:true } -->
 # When Should a Test be Changed or Removed?
 - Generally, a passing test should **never** be removed
-  - These tests make sure that code changes don’t break working code
+  - These tests make sure that code changes don't break working code
 - A passing test should only be changed to make it more readable
-- When failing tests don’t pass, it usually means there are conflicting requirements
+- When failing tests don't pass, it usually means there are conflicting requirements
 
 - _Example_:
+
+```cs
+[ExpectedException(typeof),
+	"Negatives not allowed")]
+void TestSum_FirstNegativeNumberThrowsException()
+{
+	Sum(-1, 1, 2);
+}
+```
+
 - New features allow negative numbers
 
 - New developer writes the following test:
 - Earlier test fails due to a requirement change
 
 - Two course of actions:
-  - Delete the failing test after verifying it is invalid
-  - Change the old test:
+  1. Delete the failing test after verifying it is invalid
+  1. Change the old test:
     - Either testing the new requirement
     - Or test the older requirement under new settings
 
@@ -442,9 +475,25 @@ public class AccountTest
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Tests Should Reflect Required Reality
+
+```cs
+int Sum(int a, int b) -> return sum of a and b
+```
+
 - What’s wrong with the following test?
+
+```cs
+public void Sum_AddsOneAndTwo()
+{
+  int result = Sum(1, 2);
+  Assert.AreEqual(4, result, "Bad sum");
+}
+```
+
+<div class="fragment">
 - A failing test should prove that there is something wrong with the production code
   - Not with the unit test code
+</div>
 
 <!-- attr: { hasScriptWrapper:true } -->
 # What Should Assert Messages Say?
@@ -452,17 +501,27 @@ public class AccountTest
   - Tells us what we expected to happen but didn’t, and what happened instead
   - Good assert message helps us track bugs and understand unit tests more easily
 - _Example_:
-  - "Withdrawal failed: accounts are not supposed to have negative balance."
+  - _"Withdrawal failed: accounts are not supposed to have negative balance."_
 
 - Express what **should** have happened and what **did not** happen
-  - “**Verify()** did not throw any exception”
-  - “**Connect()** did not open the connection before returning it”
+  - "**Verify()** did not throw any exception"
+  - "**Connect()** did not open the connection before returning it"
 - Do not:
   - Provide empty or meaningless messages
   - Provide messages that repeat the name of the test case
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Avoid Multiple Asserts in a Single Unit Test
+
+```cs
+void TestSum_AnyParamBiggerThan100IsNotSummed()
+{
+	Assert.AreEqual(3, Sum(1001, 1, 2));
+	Assert.AreEqual(3, Sum(1, 1001, 2));
+	Assert.AreEqual(3, Sum(1, 2, 1001));
+}
+```
+
 - Avoid multiple asserts in a single test case
   - If the first assert fails, the test execution stops for this test case
   - Affect future coders to add assertions to test rather than introducing a new one
@@ -475,12 +534,10 @@ public class AccountTest
   - This is where supporting integrated tools and suggested guidelines enter the picture
 - The ultimate goal is tools that generate unit tests **automatically**
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- section start -->
+<!-- attr: { hasScriptWrapper:true, class:"slide-section" } -->
 # Unit Testing
-
-```cs
-http://academy.telerik.com
-```
+## Questions?
 
 <!-- attr: { hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
