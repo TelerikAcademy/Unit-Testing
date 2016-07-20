@@ -539,16 +539,16 @@ void TestSum_AnyParamBiggerThan100IsNotSummed()
 # Unit Testing
 ## Questions?
 
-<!-- attr: { hasScriptWrapper:true } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
-    - csharpfundamentals.telerik.com
+    - [Unit Testing Course](http://academy.telerik.com/student-courses/programming/high-quality-code/about)
   - Telerik Software Academy
-    - academy.telerik.com
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
-    - facebook.com/TelerikAcademy
+    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Software Academy Forums
-    - forums.academy.telerik.com
+    - [forums.academy.telerik.com](forums.academy.telerik.com)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
