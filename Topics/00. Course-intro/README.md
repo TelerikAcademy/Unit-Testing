@@ -1,11 +1,11 @@
 <!-- section start -->
 <!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
-# High-Quality Code - Unit Testing: Course Intro
+# Unit Testing: Course Intro
 ## Top Students, Unit Testing Course Program, Evaluation, Exams, Resources
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/images.jpg" style="top:65%; left:70%; width:30%; z-index:-1" /> -->
 
 <div class="signature">
-	<p class="signature-course">High-Quality Code - Unit Testing</p>
+	<p class="signature-course">Unit Testing</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
@@ -40,7 +40,7 @@
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # High-Quality Code - Unit Testing -->
+<!-- # Unit Testing -->
 <!-- ## Coming To The Next Module -->
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:55%; left:36%; width:30%; z-index:-1" /> -->
@@ -48,7 +48,7 @@
 
 <!-- attr: { id:'next', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="next"></a>What's Coming Next?
-- High-Quality Code - Unit Testing
+- Unit Testing
   - Continuation of C# Track
 - Pretty much the same
   - Lectures two times a week
