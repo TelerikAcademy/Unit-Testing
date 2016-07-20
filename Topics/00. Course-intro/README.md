@@ -34,6 +34,8 @@
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/award.png" style="top:45%; left:42%; width:10%; z-index:-1" /> -->
 <!-- attr: { id:'topstudents', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="topstudents"></a>Top Students - Module 1
+**Alphabetical order**
+
 - [david_mavrodiev](https://telerikacademy.com/Users/david_mavrodiev)
 - [Dominent](https://telerikacademy.com/Users/Dominent)
 - [DragonClaw](https://telerikacademy.com/Users/DragonClaw)
@@ -71,9 +73,7 @@
   - Continuation of C# Track
 - Pretty much the same
   - Lectures two times a week
-  - Practical exam
-- The course exam?
-    - **TBD**
+  - Practical exam at the end
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:27.33%; left:74.85%; width:27.33%; z-index:-1" /> -->
 
@@ -130,12 +130,6 @@
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:13.72%; left:75.79%; width:28.21%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:34.16%; left:75.79%; width:28.21%; z-index:-1" /> -->
 
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Unit Testing Exams
-- **TBD**
-
-
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Homework Peer Reviews
 - Everyone will **get feedback** for their homework
@@ -164,9 +158,10 @@
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-# Pass / Excellence / Fail Criteria
+# Pass / Excellence / Fail
   - Criteria for pass / pass with excellence / fail
-    - **Pass with excellence**
+
+  - **Pass with excellence**
     - Very high exam results
     - 	  or
     - High total results
@@ -189,7 +184,7 @@
   - The rest are your homework
 - Homework assignments due 1 week after each lecture – no excuses for being late
   - Deadlines are final & enforced by the system
-- Submit homework through telerikacademy.com
+- Submit homework through [https://telerikacademy.com](https://telerikacademy.com)
 
 
 
@@ -215,7 +210,7 @@
   - Discuss the course exercises with your colleagues
   - Find solutions for the exercises
   - Share source code / discuss ideas
-- The HQC official web site:
+- The Unit Testing course official web site:
 - [http://telerikacademy.com/Forum/Category/19/c#-qpc](http://telerikacademy.com/Forum/Category/19/c#-qpc)
 - [http://academy.telerik.com/student-courses/programming/high-quality-code/about](http://academy.telerik.com/student-courses/programming/high-quality-code/about)
 
