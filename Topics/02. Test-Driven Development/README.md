@@ -12,8 +12,8 @@
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section', hasScriptWrapper: true} --> 
-# Code and Test vs. Test Driven Development
+<!-- attr: {class: 'slide-section', showInPresentation:true, hasScriptWrapper: true} --> 
+<!-- # Code and Test vs. Test Driven Development -->
 
 # Unit Testing Approaches
 
@@ -32,8 +32,8 @@
 
 <!-- section start -->
 
-<!-- attr: {class: 'slide-section' } -->
-# Test-driven Development
+<!-- attr: {class: 'slide-section', showInPresentation:true } -->
+<!-- # Test-driven Development -->
 
 # TDD in One Slide
 
@@ -67,9 +67,9 @@
   - Not all developers know how to test
   - Everyone might not be taking a TDD approach
 
-<!-- attr: {class: 'slide-section' } -->
-# Test-Driven Development
-## [Demo](): Poker Hands Checker
+<!-- attr: {class: 'slide-section', showInPresentation:true } -->
+<!-- # Test-Driven Development
+## [Demo](): Poker Hands Checker -->
 
 <!-- section start -->
 
@@ -78,6 +78,7 @@
 <!-- # Test-driven Development
 ## Questions? -->
 
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
     - http://csharpfundamentals.telerik.com
@@ -87,7 +88,8 @@
     - http://facebook.com/TelerikAcademy
   - Telerik Software Academy Forums
     - http://forums.academy.telerik.com
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
+
+<!-- <img class="slide-image" showInPresentation="false" src="imgs/pic13.png" style="top:60.37%; left:92.39%; width:13.45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="false" src="imgs/pic14.png" style="top:30.85%; left:68.14%; width:36.30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="false" src="imgs/pic15.png" style="top:46.32%; left:95.14%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="false" src="imgs/pic16.png" style="top:13.00%; left:92.85%; width:13.01%; z-index:-1" /> -->
