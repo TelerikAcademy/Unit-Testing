@@ -40,9 +40,9 @@
 - **Test-driven Development** steps
   1.  Pick а test
   1.  Compile and fail
-  1.  Write code to pass test 
   1.  Write enough code to compile
   1.  Run test and fail
+  1.  Write code to pass test 
   1.  Create a tests list
   1.  Time flow
   1.  Write test
@@ -69,7 +69,7 @@
 
 <!-- attr: {class: 'slide-section', showInPresentation:true } -->
 <!-- # Test-Driven Development
-## [Demo](): Poker Hands Checker -->
+## [Live Demo]()
 
 <!-- section start -->
 
