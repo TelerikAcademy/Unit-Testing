@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    <Array>1,1</Array>
+    <Result>2</Result>
+  </Row>
+  <Row>
+    <Array></Array>
+    <Result>0</Result>
+  </Row>
+  <Row>
+    <Array>-1</Array>
+    <Result>-1</Result>
+  </Row>
+</Rows>
