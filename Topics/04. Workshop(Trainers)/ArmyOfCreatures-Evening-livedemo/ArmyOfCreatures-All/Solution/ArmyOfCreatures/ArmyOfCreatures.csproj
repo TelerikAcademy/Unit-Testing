@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB52E531-9691-46AF-9ED3-0EC7B011FBEC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ArmyOfCreatures</RootNamespace>
+    <AssemblyName>ArmyOfCreatures</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Console\Commands\AddCommand.cs" />
+    <Compile Include="Console\Commands\AttackCommand.cs" />
+    <Compile Include="Console\Commands\CommandManager.cs" />
+    <Compile Include="Console\Commands\ExitCommand.cs" />
+    <Compile Include="Console\Commands\ICommand.cs" />
+    <Compile Include="Console\Commands\ICommandManager.cs" />
+    <Compile Include="Console\Commands\SkipCommand.cs" />
+    <Compile Include="Console\ConsoleWriter.cs" />
+    <Compile Include="Console\Program.cs" />
+    <Compile Include="Extended\BattleManagerWithThreeArmies.cs" />
+    <Compile Include="Extended\Creatures\AncientBehemoth.cs" />
+    <Compile Include="Extended\Creatures\CyclopsKing.cs" />
+    <Compile Include="Extended\Creatures\Goblin.cs" />
+    <Compile Include="Extended\Creatures\Griffin.cs" />
+    <Compile Include="Extended\Creatures\WolfRaider.cs" />
+    <Compile Include="Extended\ExtendedCreaturesFactory.cs" />
+    <Compile Include="Extended\Specialties\AddAttackWhenSkip.cs" />
+    <Compile Include="Extended\Specialties\DoubleAttackWhenAttacking.cs" />
+    <Compile Include="Extended\Specialties\DoubleDamage.cs" />
+    <Compile Include="Logic\Battles\BattleManager.cs" />
+    <Compile Include="Logic\Battles\CreatureIdentifier.cs" />
+    <Compile Include="Logic\Battles\CreaturesInBattle.cs" />
+    <Compile Include="Logic\Battles\IBattleManager.cs" />
+    <Compile Include="Logic\Battles\ICreaturesInBattle.cs" />
+    <Compile Include="Logic\CreaturesFactory.cs" />
+    <Compile Include="Logic\Creatures\Angel.cs" />
+    <Compile Include="Logic\Creatures\Archangel.cs" />
+    <Compile Include="Logic\Creatures\ArchDevil.cs" />
+    <Compile Include="Logic\Creatures\Behemoth.cs" />
+    <Compile Include="Logic\Creatures\Creature.cs" />
+    <Compile Include="Logic\Creatures\Devil.cs" />
+    <Compile Include="Logic\ICreaturesFactory.cs" />
+    <Compile Include="Logic\ILogger.cs" />
+    <Compile Include="Logic\Specialties\AddDefenseWhenSkip.cs" />
+    <Compile Include="Logic\Specialties\DoubleDefenseWhenDefending.cs" />
+    <Compile Include="Logic\Specialties\Hate.cs" />
+    <Compile Include="Logic\Specialties\ReduceEnemyDefenseByPercentage.cs" />
+    <Compile Include="Logic\Specialties\Resurrection.cs" />
+    <Compile Include="Logic\Specialties\Specialty.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
