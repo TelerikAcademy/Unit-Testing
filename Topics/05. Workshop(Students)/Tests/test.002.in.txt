@@ -1,0 +1,12 @@
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+CreateShampoo C Nivea 0.50 men 500 everyday
+CreateShampoo CoolCoolCoolCool Nivea 0.50 men 500 everyday
+CreateShampoo Cool N 0.50 men 500 everyday
+CreateShampoo CoolAgain N 0.50 men 500 everyday
+CreateShampoo CoolAgaina Nnnnnnnnnnnnnnnnnnnnnnnn 0.50 men 500 everyday
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+CreateShampoo C Nivea 0.50 men 500 everyday
+CreateShampoo CoolCoolCoolCool Nivea 0.50 men 500 everyday
+CreateShampoo Cool N 0.50 men 500 everyday
+CreateShampoo CoolAgain N 0.50 men 500 everyday
+CreateShampoo CoolAgaina Nnnnnnnnnnnnnnnnnnnnnnnn 0.50 men 500 everyday

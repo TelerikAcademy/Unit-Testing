@@ -1,0 +1,5 @@
+Category with name ForMale was created!
+ForMale category - 0 products in total
+Category name must be between 2 and 15 symbols long!
+Category name must be between 2 and 15 symbols long!
+Category with name ForMale already exists!

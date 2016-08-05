@@ -1,0 +1,12 @@
+Shampoo with name Cool was created!
+Product name must be between 3 and 10 symbols long!
+Product name must be between 3 and 10 symbols long!
+Shampoo with name Cool already exists!
+Product brand must be between 2 and 10 symbols long!
+Product brand must be between 2 and 10 symbols long!
+Shampoo with name Cool already exists!
+Product name must be between 3 and 10 symbols long!
+Product name must be between 3 and 10 symbols long!
+Shampoo with name Cool already exists!
+Product brand must be between 2 and 10 symbols long!
+Product brand must be between 2 and 10 symbols long!

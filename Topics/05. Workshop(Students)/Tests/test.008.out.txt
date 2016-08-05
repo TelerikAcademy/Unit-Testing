@@ -1,0 +1,5 @@
+Toothpaste with name White+ was created!
+Product White+ was added to the shopping cart!
+Shampoo with name Cool was created!
+Product Cool was added to the shopping cart!
+$265.50 total price currently in the shopping cart!

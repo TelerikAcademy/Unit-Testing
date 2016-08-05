@@ -1,0 +1,54 @@
+Category with name ForMale was created!
+ForMale category - 0 products in total
+Shampoo with name Cool was created!
+Toothpaste with name White+ was created!
+Product Cool added to category ForMale!
+ForMale category - 1 product in total
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Product White+ added to category ForMale!
+ForMale category - 2 products in total
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Toothpaste with name White- was created!
+Product White- added to category ForMale!
+ForMale category - 3 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Nivea - Cool:
+  * Price: $250.00
+  * For gender: Men
+  * Quantity: 500 ml
+  * Usage: EveryDay
+Product Cool removed from category ForMale!
+ForMale category - 2 products in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+- Colgate - White+:
+  * Price: $15.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma
+Product White+ removed from category ForMale!
+ForMale category - 1 product in total
+- Colgate - White-:
+  * Price: $19.50
+  * For gender: Men
+  * Ingredients: fluor, bqla, golqma

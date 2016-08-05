@@ -1,0 +1,5 @@
+Toothpaste with name White+ was created!
+Product White+ was added to the shopping cart!
+Shampoo with name Cool was created!
+Shopping cart does not contain product with name Cool!
+Product White+ was removed from the shopping cart!

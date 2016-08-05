@@ -1,0 +1,4 @@
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+AddToShoppingCart White+
+CreateShampoo Cool Nivea 0.50 men 500 everyday
+AddToShoppingCart Cool

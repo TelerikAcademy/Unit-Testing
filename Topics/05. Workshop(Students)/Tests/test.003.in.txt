@@ -1,0 +1,6 @@
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste W Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste White+White+White+White+White+ Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste White+ Colgate 15.50 men fluor,bqla,golqma
+CreateToothpaste White+++ C 15.50 men fluor,bqla,golqma
+CreateToothpaste White++++ ColgateColgateColgateColgate 15.50 men fluor,bqla,golqma

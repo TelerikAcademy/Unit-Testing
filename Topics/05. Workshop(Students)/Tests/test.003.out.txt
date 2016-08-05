@@ -1,0 +1,6 @@
+Toothpaste with name White+ was created!
+Product name must be between 3 and 10 symbols long!
+Product name must be between 3 and 10 symbols long!
+Toothpaste with name White+ already exists!
+Product brand must be between 2 and 10 symbols long!
+Product brand must be between 2 and 10 symbols long!
