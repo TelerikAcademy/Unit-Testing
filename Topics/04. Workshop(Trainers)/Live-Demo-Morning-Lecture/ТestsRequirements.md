@@ -6,7 +6,7 @@
 
  - ProcessCommand should throw ArgumentNullException, when the "IBattleManager battleManager" is null.
  - ProcessCommand should throw ArgumentNullException, when the "params string[] arguments" is null.
- - ProcessCommand should throw ArgumentNullException, when the number of "params string[] arguments" is invalid (lower than 2).
+ - ProcessCommand should throw ArgumentException, when the number of "params string[] arguments" is invalid (lower than 2).
  - ProcessCommand should call IBattleManager.AddCreatures(), when the command is parsed successfully.
 
 ## Class - ArmyOfCreatures.Logic.Specialties.DoubleDefenseWhenDefending
