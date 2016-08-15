@@ -1,0 +1,11 @@
+add 10 WolfRaider(1)
+add 50 Goblin(2)
+attack WolfRaider(1) Goblin(2)
+attack Goblin(2) WolfRaider(1)
+attack WolfRaider(1) Goblin(2)
+attack Goblin(2) WolfRaider(1)
+attack WolfRaider(1) Goblin(2)
+attack Goblin(2) WolfRaider(1)
+attack WolfRaider(1) Goblin(2)
+attack Goblin(2) WolfRaider(1)
+exit
