@@ -1,4 +1,4 @@
-Unit Testing
+## Unit Testing
 
 Repository for the course [Unit Testing](https://telerikacademy.com/Courses/Courses/Details/410) at [Telerik Academy](https://telerikacademy.com)
 
