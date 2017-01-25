@@ -36,26 +36,25 @@
 # <a id="topstudents"></a>Top Students - Module 1
 **Alphabetical order**
 
-- AngelAngelov77
-- BorislavBorisov22
-- daniel.slavov
-- IliyaST
-- milena.aleksandrova
-- rosen.urkov
-- rumensechkov
-- ShwangShwing
+- AngelAngelov77 - Ангел Ангелов
+- BorislavBorisov22 - Борислав Борисов
+- ShwangShwing - Георги Тончев
+- daniel.slavov - Даниел Славов
+- IliyaST - Илия Стамболов
+- iDonev - Искрен Донев
+- yo.ana.georgieva - Йоана Георгиева
 
 <!-- attr: { id:'topstudents', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # <a id="topstudents"></a>Top Students - Module 1 -->
 
-- yo.ana.georgieva
-- iDonev
-- Kalin_Kostov
-- markshark05
-- ndvalkov
-- nhristova
-- ogitaki
-
+- Kalin_Kostov - Калин Костов
+- markshark05 - Марк Титоренков
+- milena.aleksandrova - Милена Сапунова
+- nhristova - Надежда Христова
+- ndvalkov - Николай Вълков
+- ogitaki - Огнян Стоименов
+- rosen.urkov - Росен Урков
+- rumensechkov - Румен Сечков
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
