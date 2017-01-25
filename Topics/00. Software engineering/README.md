@@ -54,6 +54,11 @@ and `maintenance` of software.
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:38.49%; left:75.79%; width:27.91%; z-index:-1" /> -->
 
 <!-- attr: { hasScriptWrapper:true } -->
+# Software Life-cycle
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic39.png" style="top:12.49%; left:10.79%; width:73.91%; z-index:-1" /> -->
+
+<!-- attr: { hasScriptWrapper:true } -->
 # Engineering Activities
 - **Software development** always includes the following activities (to some extent):
   - Requirements analysis
