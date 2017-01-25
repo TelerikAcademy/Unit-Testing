@@ -36,27 +36,25 @@
 # <a id="topstudents"></a>Top Students - Module 1
 **Alphabetical order**
 
-- [david_mavrodiev](https://telerikacademy.com/Users/david_mavrodiev)
-- [Dominent](https://telerikacademy.com/Users/Dominent)
-- [DragonClaw](https://telerikacademy.com/Users/DragonClaw)
-- [ElenaZ](https://telerikacademy.com/Users/ElenaZ)
-- [georgivelikov](https://telerikacademy.com/Users/georgivelikov)
-- [ivan.parvanov.1](https://telerikacademy.com/Users/ivan.parvanov.1)
-- [kalinavg](https://telerikacademy.com/Users/kalinavg)
-- [Merhatt](https://telerikacademy.com/Users/Merhatt)
+- AngelAngelov77
+- BorislavBorisov22
+- daniel.slavov
+- IliyaST
+- milena.aleksandrova
+- rosen.urkov
+- rumensechkov
+- ShwangShwing
 
 <!-- attr: { id:'topstudents', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # <a id="topstudents"></a>Top Students - Module 1 -->
-- [milena.aleksandrova](https://telerikacademy.com/Users/milena.aleksandrova)
-- [Mirka](https://telerikacademy.com/Users/Mirka)
-- [stoyan.ruzmanov](https://telerikacademy.com/Users/stoyan.ruzmanov)
-- [suzunov](https://telerikacademy.com/Users/suzunov)
-- [teod_st](https://telerikacademy.com/Users/teod_st)
-- [timvk](https://telerikacademy.com/Users/timvk)
-- [todorovh](https://telerikacademy.com/Users/todorovh)
-- [Tsvetoslav_Lazarov](https://telerikacademy.com/Users/Tsvetoslav_Lazarov)
 
-
+- yo.ana.georgieva
+- iDonev
+- Kalin_Kostov
+- markshark05
+- ndvalkov
+- nhristova
+- ogitaki
 
 
 <!-- section start -->
