@@ -90,8 +90,6 @@
     - DB & SQL, Cloud, Web, Mobile, QA, …
 
 
-
-
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Unit Testing – Program
@@ -104,9 +102,10 @@
 <!-- attr: { id:'program', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="program"></a>The Unit Testing Course Program
 - Unit Testing
-- Test-Driven Development (TDD)
 - Mocking
-- Workshops
+- Test-Driven Development (TDD)
+- Workshop
+- Workshop (live demo)
 
 
 <!-- section start -->
@@ -120,28 +119,13 @@
 <!-- attr: { id:'criteria', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="criteria"></a>Unit Testing – Evaluation
 - Evaluation components  
-  - **Practical exam** – **75%**
-  - **Exam Peer review** - **10%**
-  - **Homework** – **5%**  
-    - Homework **evaluation** – **5%**  
-    - 3 peer reviews per homework  
-  - **Attendance** in class – **5%**
+  - **Practical exam** – **80%**
+  - **Exam Peer review** - **10%**  
+  - **Workshop attendance** in class – **5%**
+  - **Lecture attendance** in class – **5%**
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:13.72%; left:75.79%; width:28.21%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:34.16%; left:75.79%; width:28.21%; z-index:-1" /> -->
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Homework Peer Reviews
-- Everyone will **get feedback** for their homework
-- Everyone will **give feedback** for few random homework submissions
-  - Students submit homework **anonymously**
-    - Please exclude your name from the submissions!
-  - For each homework submitted
-    - Students **evaluate 3 random homeworks**
-    - From the same topic, after the deadline
-    - Give written feedback, at least 200 characters
-    - Low-quality feedback &rarr; report for punishment
-
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Attendance in Class
@@ -154,8 +138,6 @@
   - Check in +/-30 min. <br />before/after lecture starts
 
   <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:60%; left:57%; width:40%; z-index:-1" /> -->
-
-
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Pass / Excellence / Fail
@@ -173,20 +155,6 @@
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:48.48%; left:61.75%; width:14.10%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:22.04%; left:76.96%; width:23.36%; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:61.71%; left:88.89%; width:13.22%; z-index:-1" /> -->
-
-
-<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
-# Homework Assignments
-- Doing your homework is very important!
-  - Programming can only be learned through **a lot of practice**!
-- After each lecture there are a few exercises
-  - Try to solve them in class
-  - The rest are your homework
-- Homework assignments due 1 week after each lecture – no excuses for being late
-  - Deadlines are final & enforced by the system
-- Submit homework through [https://telerikacademy.com](https://telerikacademy.com)
-
-
 
 
 <!-- section start -->
