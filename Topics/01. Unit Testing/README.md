@@ -15,6 +15,7 @@
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true } -->
 # Table of Contents
+- [Testing pyramid?](#pyramid)
 - [What is Unit Testing?](#definition)
 - [Code and Test vs. Test Driven Development](#code-and-test-vs-tdd)
 - [Unit testing Frameworks](#frameworks)
@@ -24,6 +25,18 @@
 - [Unit Testing Best Practices](#best-practices)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:32.18%; left:70.25%; width:33.20%; z-index:-1; border-radius: 15px" /> -->
+
+
+<!-- section start -->
+
+<!-- attr: { hasScriptWrapper:true, class:"slide-section" } -->
+# Software Testing
+
+<!-- attr: { id: 'pyramid', hasScriptWrapper:true} -->
+# <a id="pyramid"></a>Testing Pyramid
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/tests-pyramid.jpg" style="top:15%; left:10%; width:75%; z-index:-1; border-radius: 15px" /> -->
+
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section" } -->
@@ -63,7 +76,7 @@ int Sum(int[] array)
     return sum;
 }
 
-void TestSum()
+void Sum_Should()
 {
  if (Sum(new int[]{ 1, 2 }) != 3)
     throw new TestFailedException("1+2 != 3");
@@ -105,6 +118,25 @@ void TestSum()
 - Decreased **defect-injection rate** due to refactoring / changes
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:22.92%; left:87.95%; width:15.44%; z-index:-1" /> -->
+
+
+<!-- attr: { hasScriptWrapper:true } -->
+# Properties of good unit test
+
+  -  It should be automated and repeatable.
+  -  It should be easy to implement.
+  -  It should be relevant tomorrow.
+  -  Anyone should be able to run it at the push of a button.
+  -  It should run quickly.
+
+<!-- attr: { hasScriptWrapper:true } -->
+# Properties of good unit test
+
+  -  It should be consistent in its results (it always returns the same result if you don’t change anything between runs).
+  -  It should have full control of the unit under test.
+  -  It should be fully isolated (runs independently of other tests).
+  -  When it fails, it should be easy to detect what was expected and determine how to pinpoint the problem.
+
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
@@ -348,34 +380,6 @@ public class AccountTest
 
 <!-- section start -->
 <!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
-<!-- # Gallio -->
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:42%; left:5%; width:45%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:58.74%; left:74.49%; width:28.27%; z-index:-1" /> -->
-
-<!-- attr: { id:'gallio-platform', hasScriptWrapper:true } -->
-# <a id="gallio-platform"></a>The Gallio Automation Platform
-- The Gallio Automation Platform
-  - An open, extensible, and neutral system for using many .NET test frameworks
-  - Gallio can run tests from MbUnit, MSTest, NUnit, xUnit.Net, csUnit, and RSpec
-  - Provides a common object model, runtime services and tools (such as test runners)
-    - May be leveraged by any number of test frameworks
-  - [https://github.com/Gallio](https://github.com/Gallio) <!-- www.gallio.org -->
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:75%; left:70%; width:28.81%; z-index:-1" /> -->
-
-<!-- attr: { hasScriptWrapper:true, showInPresentation: true } -->
-<!-- # Interfaces -->
-- Gallio includes its own interfaces:
-  - **Echo**
-    - Command-line runner
-  - **Icarus**
-    - Windows GUI
-
-<img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:34.14%; left:48.65%; width:54.66%; z-index:-1" />
-
-<!-- section start -->
-<!-- attr: { hasScriptWrapper:true, class:"slide-section", showInPresentation: true } -->
 <!-- # Best Practices in Unit Testing -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic33.png" style="top:55%; left:30%; width:40%; z-index:-1; border-radius: 15px" /> -->
@@ -398,7 +402,7 @@ public class AccountTest
   
   ```
 with requirement to ignore numbers greater than 100 in the summing process
-- The test name could be: `TestSum_NumberIgnoredIfGreaterThan100`
+- The test name could be: `Sum_NumberIgnoredIfGreaterThan100`
 
 <!-- attr: { hasScriptWrapper:true, style: 'font-size: 0.85em' } -->
 # When Should a Test be Changed or Removed?
@@ -409,7 +413,7 @@ with requirement to ignore numbers greater than 100 in the summing process
 
 ```cs
 [ExpectedException(typeof), "Negatives not allowed")]
-void TestSum_FirstNegativeNumberThrowsException()
+void Sum_FirstNegativeNumberThrowsException()
 {
   Sum(-1, 1, 2);
 }
@@ -466,7 +470,7 @@ public void Sum_AddsOneAndTwo()
 # Avoid Multiple Asserts in a Single Test
 
 ```cs
-void TestSum_AnyParamBiggerThan100IsNotSummed()
+void Sum_AnyParamBiggerThan100IsNotSummed()
 {
 	Assert.AreEqual(3, Sum(1001, 1, 2));
 	Assert.AreEqual(3, Sum(1, 1001, 2));
