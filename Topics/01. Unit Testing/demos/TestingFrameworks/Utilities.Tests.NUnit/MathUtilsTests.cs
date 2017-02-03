@@ -11,58 +11,13 @@ namespace Utilities.Tests.NUnit
     public class MathUtilsTests
     {
         [Test]
-        public void NUnit_MathUtils_SumZeroNumbers_ShouldReturnZero()
+        public void ThrowArgumentException_WhenTheListIsNull()
         {
-            var util = new MathUtils();
-            var numbers = new List<int>() { };
+            // Arrange
+            var utils = new MathUtils();
 
-            var result = util.Sum(numbers);
-
-            Assert.AreEqual(0, result);
-        }
-
-        [Test]
-        public void NUnit_MathUtils_SumTwoPositiveNumbers_ShouldReturnCorrectResult()
-        {
-            var util = new MathUtils();
-            var numbers = new List<int>() { 1, 2 };
-
-            var result = util.Sum(numbers);
-
-            Assert.AreEqual(3, result);
-        }
-
-        [Test]
-        public void NUnit_MathUtils_SumOneNegativeNumber_ShouldReturnTheNumberItself()
-        {
-            var util = new MathUtils();
-            var numbers = new List<int>() { -1 };
-
-            var result = util.Sum(numbers);
-
-            Assert.AreEqual(-1, result);
-        }
-
-        [TestCase("1,1", 2)]
-        [TestCase("", 0)]
-        [TestCase("-1", -1)]
-        public void NUnit_MathUtils_MultipleCases_ShouldReturnRightResult(string arr, int expected)
-        {
-            var util = new MathUtils();
-            var numbers = arr.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse);
-
-            var result = util.Sum(numbers);
-
-            Assert.AreEqual(expected, result);
-        }
-
-        [Test]
-        public void NUnit_MathUtils_NullCollectionPassed_ShouldThrowArgumentException()
-        {
-            var util = new MathUtils();
-            List<int> numbers = null;
-
-            Assert.Throws<ArgumentNullException>(() => util.Sum(numbers));
+            // Act & Assert
+            Assert.Throws<ArgumentException>(() => utils.Sum(null));
         }
     }
 }
