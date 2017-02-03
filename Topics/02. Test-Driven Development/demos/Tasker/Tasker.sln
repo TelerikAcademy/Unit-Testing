@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasker", "Tasker\Tasker.csproj", "{075F89EF-989E-416C-ACAF-5D88BC7D3EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasker.Tests", "Tasker.Tests\Tasker.Tests.csproj", "{95DA53F0-ECD3-4313-AC5C-94D8EC9D0C5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{075F89EF-989E-416C-ACAF-5D88BC7D3EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075F89EF-989E-416C-ACAF-5D88BC7D3EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075F89EF-989E-416C-ACAF-5D88BC7D3EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075F89EF-989E-416C-ACAF-5D88BC7D3EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DA53F0-ECD3-4313-AC5C-94D8EC9D0C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DA53F0-ECD3-4313-AC5C-94D8EC9D0C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DA53F0-ECD3-4313-AC5C-94D8EC9D0C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DA53F0-ECD3-4313-AC5C-94D8EC9D0C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
