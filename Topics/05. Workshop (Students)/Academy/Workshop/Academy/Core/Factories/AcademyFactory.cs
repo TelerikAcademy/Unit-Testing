@@ -33,9 +33,15 @@ namespace Academy.Core.Factories
             var parsedEngingYear = int.Parse(endingYear);
 
             Initiative parsedInitiativeAsEnum;
-            Enum.TryParse<Initiative>(initiative, out parsedInitiativeAsEnum);
+            Initiative initiativeParsed = 0;
+            var parsed = Enum.TryParse<Initiative>(initiative, out parsedInitiativeAsEnum);
 
-            return new Season(parsedStartingYear, parsedEngingYear, parsedInitiativeAsEnum);
+            if(Enum.IsDefined(typeof(Initiative), parsedInitiativeAsEnum))
+            {
+                initiativeParsed = (Initiative)(object)parsedInitiativeAsEnum;
+                return new Season(parsedStartingYear, parsedEngingYear, initiativeParsed);
+            }
+            throw new ArgumentException();
         }
 
         public IStudent CreateStudent(string username, string track)

@@ -56,8 +56,26 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Telerik.JustMock, Version=2016.2.426.1, Culture=neutral, PublicKeyToken=721b6c5bc0326b3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\JustMock.2016.2.426.1\lib\Net35\Telerik.JustMock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Adding\AddStudentToCourseCommandTests\Execute_Should.cs" />
+    <Compile Include="Commands\Adding\AddStudentToSeasonCommandTests\Constructor_Should.cs" />
+    <Compile Include="Commands\Adding\AddStudentToSeasonCommandTests\Execute_Should.cs" />
+    <Compile Include="Commands\Mocks\AddStudentToSeasonCommandMock.cs" />
+    <Compile Include="Core\FactoriesTests\AcademyFactoryTests\CreateLectureResource_Should.cs" />
+    <Compile Include="Core\FactoriesTests\AcademyFactoryTests\CreateSeason_Should.cs" />
+    <Compile Include="Core\FactoriesTests\AcademyFactoryTests\Instance_Should.cs" />
+    <Compile Include="Models\CourseTests\Constructor_Should.cs" />
+    <Compile Include="Models\CourseTests\LecturesPerWeek_Should.cs" />
+    <Compile Include="Models\CourseTests\Name_Should.cs" />
+    <Compile Include="Models\CourseTests\EndingDate_Should.cs" />
+    <Compile Include="Models\CourseTests\StartingDate_Should.cs" />
+    <Compile Include="Models\CourseTests\ToString_Should.cs" />
+    <Compile Include="Models\SeasonTests\ListUsers_Should.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

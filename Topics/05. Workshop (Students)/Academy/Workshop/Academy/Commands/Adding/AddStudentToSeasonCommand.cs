@@ -8,8 +8,8 @@ namespace Academy.Commands.Adding
 {
     internal class AddStudentToSeasonCommand : ICommand
     {
-        private readonly IAcademyFactory factory;
-        private readonly IEngine engine;
+        protected readonly IAcademyFactory factory;
+        protected readonly IEngine engine;
 
         public AddStudentToSeasonCommand(IAcademyFactory factory, IEngine engine)
         {

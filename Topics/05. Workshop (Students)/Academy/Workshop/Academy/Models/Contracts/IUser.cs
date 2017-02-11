@@ -1,4 +1,6 @@
-﻿namespace Academy.Models
+﻿using System;
+
+namespace Academy.Models
 {
     public interface IUser
     {

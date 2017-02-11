@@ -9,9 +9,9 @@ namespace Academy.Models.Contracts
 
         int LecturesPerWeek { get; set; }
 
-        DateTime StartingDate { get; set; }
+        DateTime? StartingDate { get; set; }
 
-        DateTime EndingDate { get; set; }
+        DateTime? EndingDate { get; set; }
 
         IList<IStudent> OnsiteStudents { get; }
 
